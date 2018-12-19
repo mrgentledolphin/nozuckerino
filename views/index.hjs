@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NoZuckerino</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-align">Unzuck This Link</h1>
+        <form class="col s12" action="/addLink" method="POST">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="urlo" type="url" name="link" class="validate">
+                    <label for="urlo">Insert your URL...</label>
+                    <input type="submit" value="No Zuckerino plox" class="btn green">
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
